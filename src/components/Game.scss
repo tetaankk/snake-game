@@ -1,0 +1,24 @@
+.board {
+    background-color: #242731;
+    border: 1px dashed red;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2.45rem auto 0;
+
+    .controls {
+        background-color: blue;
+    }
+
+    .gameCanvas {
+        border: 5px solid white;
+        display: block;
+        margin: 25px auto;
+    }
+}
+
+p {
+    color: white;
+}
